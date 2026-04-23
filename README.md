@@ -28,13 +28,17 @@ Palabras clave: Bioestadísticos; Regresión no lineal; Experimentación in sili
 1. Utilizar Graph Grabber para encontrar los datos correspondientes a cada uno de los fármacos graficados en la figura 9 del artículo "PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil" de M. A. González‐Ayón, J.A. Sañudo‐Barajas, L.A. Picos‐Corrales y A. Licea‐Claverie; donde el eje X es el tiempo medido en minutos y el eje y es la liberación cumulativa del fármaco como un porcentaje (%).
 2. Desarrollar un algoritmo en MATLAB que permita realizar el procesamiento y graficado de los datos obtenidos.
 3. Aplicar la función fitnlm de MATLAB para ajustar los datos mediante regresión no lineal utilizando las siguientes modelos:
-  a. Función de Peppas: x(t) = kt^n
-  b. Función farmacocinética de primer orden: x(t) = beta(1 - e^(-kt))
-  c. Una función obtenida con Eureqa, utilizando los datos obtenidos del gráfico para buscar soluciones para la ecuación f(x_1) = f(t)
-  d. Una ecuación diferencial ordinaria obtenida con Eureqa, utilizando los datos obtenidos del gráfico para buscar soluciones para la ecuación D(x_1,t,1) = f(x_1)
-4.  Desarrollar un algoritmo que, con ayuda de la función del punto pasado, refleje los bioestadísticos siguientes correspondientes para cada función: Error estándar, margen de error, intervalos de confianza del 95% y valor P; además de pruebas de bondad de ajuste como el coeficiente de determinación (R²), la suma residual de cuadrados (RSS) y el criterio de información de Akaike ajustado (AICc).
-5.  Gráficar el comportamiento de los modelos ajustados con respecto a los datos obtenidos para cada uno de los fármacos y guardar las figuras obtenidas como archivos .pdf.
 
+a. Función de Peppas: x(t) = kt^n
+  
+b. Función farmacocinética de primer orden: x(t) = beta(1 - e^(-kt))
+  
+c. Una función obtenida con Eureqa, utilizando los datos obtenidos del gráfico para buscar soluciones para la ecuación f(x_1) = f(t)
+  
+d. Una ecuación diferencial ordinaria obtenida con Eureqa, utilizando los datos obtenidos del gráfico para buscar soluciones para la ecuación D(x_1,t,1) = f(x_1)
+
+5. Desarrollar un algoritmo que, con ayuda de la función del punto pasado, refleje los bioestadísticos siguientes correspondientes para cada función: Error estándar, margen de error, intervalos de confianza del 95% y valor P; además de pruebas de bondad de ajuste como el coeficiente de determinación (R²), la suma residual de cuadrados (RSS) y el criterio de información de Akaike ajustado (AICc).
+6. Gráficar el comportamiento de los modelos ajustados con respecto a los datos obtenidos para cada uno de los fármacos y guardar las figuras obtenidas como archivos .pdf.
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
 2. Imagénes de las simulaciones [.pdf].
