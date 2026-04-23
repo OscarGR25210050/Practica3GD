@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Práctica 3: Liberación controlada de fármacos por
+  hidrogeles
+message: >-
+  Gemelos Digitales / Maestría en Ciencias de la Ingeniería
+  / Tecnológico Nacional de México
+type: software
+authors:
+  - given-names: Oscar
+    family-names: González Ramírez
+    email: m25210050@tectijuana.edu.mx
+    affiliation: Tecnológico Nacional de México
+repository-code: 'https://github.com/OscarGR25210050/Practica3GD'
+keywords:
+  - Bioestadísticos
+  - Regresión no lineal
+  - Experimentación in silico
+  - Función de Peppas
+  - Función farmacocinética
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-04-22'
